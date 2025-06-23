@@ -5,7 +5,6 @@
 ## Структура проекта
 
 ```
-wine-quality-predictor/
 ├── data/                    # Директория с данными
 │   └── winequality-red.csv  # Набор данных о красном вине
 ├── model/                   # Директория с моделями
@@ -22,8 +21,8 @@ wine-quality-predictor/
 
 ```bash
 # Клонирование репозитория
-git clone <repository-url>
-cd wine-quality-predictor
+git clone https://github.com/Artem123213432/wine_quality.git
+cd wine_quality
 
 # Создание и активация виртуальной среды (опционально)
 python -m venv venv
@@ -50,7 +49,6 @@ jupyter notebook notebooks/exploratory_analysis.ipynb
 Чтобы обучить модель нейронной сети для предсказания качества вина:
 
 ```bash
-cd wine-quality-predictor
 python -m model.train_model
 ```
 
